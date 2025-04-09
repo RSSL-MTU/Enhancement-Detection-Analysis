@@ -5,7 +5,7 @@ This repo contains an extensive evaluation of the effect of underwater image enh
 
 ![](Figs/Enh_RUOD.jpeg) Fig.1 Randomly selected Original images from each available quality bin of RUOD dataset. The corresponding Q-index values are color-mapped and placed under each image.
 
-![](Figs/mAP_Q-index Correlation.jpg) Fig.1 Randomly selected Original images from each available quality bin of RUOD dataset. The corresponding Q-index values are color-mapped and placed under each image.
+![](Figs/mAP_Q_index_Correlation.jpg) Fig.1 Randomly selected Original images from each available quality bin of RUOD dataset. The corresponding Q-index values are color-mapped and placed under each image.
 
 ![](Figs/Q-index Alg.jpg) Fig.1 Randomly selected Original images from each available quality bin of RUOD dataset. The corresponding Q-index values are color-mapped and placed under each image.
 
