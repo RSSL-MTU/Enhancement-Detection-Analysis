@@ -5,22 +5,22 @@ This repo contains figures, codes and trained models and supplementary materials
 
 **Codes:**
 
-* Q-index_final MATLAB file: to calculate the Quality Index (Q-index) using some image enhancement metrics, outlier removal, and global rescaling.\
-* Q-mAp-Grid-images Python file: to generate a figure of random images belonging to different quality bins from different enhancers.\
+* Q-index_final MATLAB file: to calculate the Quality Index (Q-index) using some image enhancement metrics, outlier removal, and global rescaling.
+* Q-mAp-Grid-images Python file: to generate a figure of random images belonging to different quality bins from different enhancers.
 * Dashed_rectangle_YOLO_addition Python file: to visualize the ground truth (as dashed lines) alongside the detections in the SuperGradients library for YOLO.
 
 **Data links:**
 
-* Enhanced versions of the CUPDD dataset using 9 underwater image enhancement algorithms:\
+* Enhanced versions of the CUPDD dataset using 9 underwater image enhancement algorithms:
   * https://drive.google.com/file/d/1yX86I6AM_Dqts5oevFtF7tSzImbU-mzz/view?usp=sharing
 
-* Enhanced versions of the RUOD dataset using 9 underwater image enhancement algorithms:\
+* Enhanced versions of the RUOD dataset using 9 underwater image enhancement algorithms:
   * [https://drive.google.com/open?id=1-w-HB9AdblaEbr_1cP1sz59EFBgG6QM5&usp=drive_fs](https://drive.google.com/file/d/1wG7nW_5ol1w7SUJjKdfFsDw64qDa7RLn/view?usp=sharing)
 
-* Trained YOLO-NAS object detection models on the CUPDD dataset (1 on the original images + 9 using enhanced versions) (please use the SuperGrdainet implementation with the Large YOLO architecture):\
+* Trained YOLO-NAS object detection models on the CUPDD dataset (1 on the original images + 9 using enhanced versions) (please use the SuperGrdainet implementation with the Large YOLO architecture):
   * https://drive.google.com/drive/folders/1jlwfmiuMJ_zIlTRDHhZRAARzekmSf7hS?usp=sharing
 
-* Trained YOLO-NAS object detection models on the RUOD dataset (1 on the original images + 9 using enhanced versions) (please use the SuperGrdainet implementation with the Large YOLO architecture):\
+* Trained YOLO-NAS object detection models on the RUOD dataset (1 on the original images + 9 using enhanced versions) (please use the SuperGrdainet implementation with the Large YOLO architecture):
   * [https://drive.google.com/file/d/1-wE2tpK9-Hx-L0aFYTjasN01bXKBm-ig/view?usp=drive_link](https://drive.google.com/drive/folders/12LFugM50L-r1wmVgZMvJrplAllEr7oTF?usp=sharing)
 
 **Some figures:**
