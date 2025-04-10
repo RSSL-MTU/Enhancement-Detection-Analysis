@@ -5,9 +5,9 @@ This repo contains figures, codes and trained models and supplementary materials
 
 **Codes:**\
 
--Q-index_final MATLAB file: to calculate the Quality Index (Q-index) using some image enhancement metrics, outlier removal, and global rescaling.\
--Q-mAp-Grid-images Python file: to generate a figure of random images belonging to different quality bins from different enhancers.\
--Dashed_rectangle_YOLO_addition Python file: to visualize the ground truth (as dashed lines) alongside the detections in the SuperGradients library for YOLO.
+_Q-index_final MATLAB file: to calculate the Quality Index (Q-index) using some image enhancement metrics, outlier removal, and global rescaling.\
+_Q-mAp-Grid-images Python file: to generate a figure of random images belonging to different quality bins from different enhancers.\
+_Dashed_rectangle_YOLO_addition Python file: to visualize the ground truth (as dashed lines) alongside the detections in the SuperGradients library for YOLO.
 
 **Data links:**\
 
