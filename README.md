@@ -22,6 +22,10 @@
 * Trained YOLO-NAS object detection models on the RUOD dataset (1 on the original images + 9 using enhanced versions) (please use the SuperGrdainet implementation with the Large YOLO architecture):
   * [https://drive.google.com/file/d/1-wE2tpK9-Hx-L0aFYTjasN01bXKBm-ig/view?usp=drive_link](https://drive.google.com/drive/folders/12LFugM50L-r1wmVgZMvJrplAllEr7oTF?usp=sharing)
 
+**Workflow:**
+
+![](Figs/blocks.png)  Overview of the proposed evaluation framework. Raw images are enhanced using nine UIE models, evaluated through a unified Q-index, and processed by object detectors to compute per-image mAP. The best-performing version of each image forms a mixed set used to estimate the upper-bound detection performance. Green blocks denote methods newly proposed in this work, peach blocks indicate existing methods re-implemented in this study, and yellow blocks represent result evaluation, interpretation, and analytical insights.
+
 **Some figures:**
 
 ![](Figs/Q_index_Alg.png) Fig.1 The algorithm for calculating the Q-index.
