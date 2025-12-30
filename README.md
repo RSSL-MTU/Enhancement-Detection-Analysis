@@ -1,7 +1,6 @@
-# Enhancement-Detection-Analysis
-This repo contains figures, codes and trained models and supplementary materials for evaluating the effect of underwater image enhancement on object detection.
+# Revisiting Underwater Image Enhancement for Object Detection: A Unified Quality–Detection Evaluation Framework
 
-**Abstract:** Underwater imagery often suffers from severe degradation resulting in low visual quality and object detection performance. This work aims to evaluate state-of-the-art image enhancement models, investigate their impact on underwater object detection, and explore their potential to improve detection performance. To this end, we apply nine recent underwater image enhancement models, covering physical, non-physical and learning-based categories, to two recent underwater image datasets. Following this, we conduct qualitative and quantitative analyses on the original and enhanced images analyzing changes in the quality distribution of the images after enhancement. Next, we train three recent object detection models on the original images, after which the highest-performing detection algorithm is trained on the enhanced images. Subsequently, we compare the performance of the detection models trained on the original images with those trained on enhanced images. Furthermore, we perform a correlation study to examine the relationship between various enhancement metrics and the mean Average Precision (mAP). Finally, we conduct a thorough qualitative evaluation of the inference results from the trained detectors. In this work, we identify individual images where enhancement improved the detection performance despite an overall negative effect of enhancement on detection. The findings of this study offer insights for researchers to further investigate the effects of enhancement on detection at the individual image level rather than the dataset level. The data generated, codes used, and additional supplementary materials for this work are made publicly available on: https://github.com/RSSL-MTU/Enhancement-Detection-Analysis.
+**Abstract:** Underwater images often suffer from severe color distortion, low contrast, and reduced visibility, motivating the widespread use of image enhancement as a preprocessing step for downstream computer vision tasks. However, recent studies have questioned whether enhancement actually improves object detection performance. In this work, we conduct a comprehensive and rigorous evaluation of nine state-of-the-art enhancement methods and their interactions with modern object detectors. We propose a unified evaluation framework that integrates (1) a distribution-level quality assessment using a composite quality index (Q-index), (2) a fine-grained per-image detection protocol based on COCO-style mAP, and (3) a mixed-set upper-bound analysis that quantifies the theoretical performance achievable through ideal selective enhancement. Our findings reveal that traditional image quality metrics do not reliably predict detection performance, and that dataset-level conclusions often overlook substantial image-level variability. Through per-image evaluation, we identify numerous cases in which enhancement significantly improves detection accuracy—primarily for low-quality inputs—while also demonstrating conditions under which enhancement degrades performance. The mixed-set analysis shows that selective enhancement can yield substantial gains over both original and fully enhanced datasets, establishing a new direction for designing enhancement models optimized for downstream vision tasks. This study provides the most comprehensive evidence to date that underwater image enhancement can be beneficial for object detection when evaluated at the appropriate granularity and guided by informed selection strategies. The data generated and code developed are publicly available.
 
 **Codes:**
 
@@ -30,6 +29,23 @@ This repo contains figures, codes and trained models and supplementary materials
 ![](Figs/Enh_RUOD.jpeg) Fig.2 Randomly selected Original images from each available quality bin of RUOD dataset. The corresponding Q-index values are color-mapped and placed under each image.
 
 ![](Figs/Max_Enh_RUOD.jpeg) Fig.3 Cases where enhancers revealed hidden objects that went unnoticed by the human annotator on RUOD dataset. The ground truth bounding boxes are visualized on each image as dotted bounding boxes. The color-mapped values next to images represent Q-index.
+
+**Please cite this paper reference:**
+
+@Article{jimaging12010018,
+AUTHOR = {Awad, Ali and Saleem, Ashraf and Paheding, Sidike and Lucas, Evan and Al-Ratrout, Serein and Havens, Timothy C.},
+TITLE = {Revisiting Underwater Image Enhancement for Object Detection: A Unified Quality–Detection Evaluation Framework},
+JOURNAL = {Journal of Imaging},
+VOLUME = {12},
+YEAR = {2026},
+NUMBER = {1},
+ARTICLE-NUMBER = {18},
+URL = {https://www.mdpi.com/2313-433X/12/1/18},
+ISSN = {2313-433X},
+DOI = {10.3390/jimaging12010018}
+}
+
+
 
 
 
